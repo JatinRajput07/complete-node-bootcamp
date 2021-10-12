@@ -32,7 +32,7 @@ const createSendToken = (user, statusCode, req, res) => {
     data: {
       user
     }
-  });
+  })
 };
 
 exports.signup = catchAsync(async (req, res, next) => {
